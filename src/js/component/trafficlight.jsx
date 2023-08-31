@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 
 const TrafficLight = () => {
-  const [redIsActive, setRedIsActive] = useState(false);
-  const [yellowIsActive, setYellowIsActive] = useState(false);
-  const [greenIsActive, setGreenIsActive] = useState(false);
-
+  const [color, setColor] = useState("");
+  
   return (
     <div className="traffic-light">
-      <div className={`red-light` + ` ${isActive ? 'selected' : '' }`} onClick={() => {setRedIsActive(!redIsActive)}}></div>
-      <div className={`yellow-light` + ` ${isActive ? 'selected' : '' }`} onClick={() => {setYellowIsActive(!yellowIsActive)}}></div>
-      <div className={`green-light` + ` ${isActive ? 'selected' : '' }`} onClick={() => {setGreenIsActive(!redIsActive)}}></div>
+      <div className={`red-light` + ` ${color == "red" ? 'selected' : '' }`} onClick={() => {setColor("red")}}></div>
+      <div className={`yellow-light` + ` ${color == "yellow" ? 'selected' : '' }`} onClick={() => {setColor("yellow")}}></div>
+      <div className={`green-light` + ` ${color == "green" ? 'selected' : '' }`} onClick={() => {setColor("green")}}></div>    
     </div>
   );
 };
