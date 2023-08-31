@@ -1,0 +1,40 @@
+  .traffic-light {
+    width: 120px;
+    height: 200px;
+    padding: 5px 5px 5px 5px;
+    background-color:black;
+    border: black;
+    display: inline-block;
+  }
+
+  .red-light {
+    height: 60px;
+    width: 60px;
+    background: red;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .yellow-light {
+    height: 60px;
+    width: 60px;
+    background-color: yellow;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .green-light {
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .selected {
+    box-shadow:
+    2px 4px 16px 0px rgba(0,255,255,0.7),
+    2px 4px 16px 0px rgba(0,255,255,0.7),
+    2px 4px 16px 0px rgba(0,255,255,0.7),
+    2px 4px 16px 0px rgba(0,255,255,0.7);
+  }
