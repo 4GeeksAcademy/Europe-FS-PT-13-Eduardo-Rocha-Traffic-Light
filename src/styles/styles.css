@@ -1,6 +1,6 @@
   .traffic-light {
     width: 120px;
-    height: 200px;
+    height: auto;
     padding: 5px 5px 5px 5px;
     background-color:black;
     border: black;
@@ -11,7 +11,8 @@
     height: 60px;
     width: 60px;
     background: red;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 5px;
     border-radius: 50%;
   }
 
@@ -19,7 +20,8 @@
     height: 60px;
     width: 60px;
     background-color: yellow;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 5px;
     border-radius: 50%;
   }
 
@@ -27,7 +29,17 @@
     height: 60px;
     width: 60px;
     background-color: green;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 50%;
+  }
+
+  .purple-light {
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+    margin: auto;
+    margin-bottom: 5px;
     border-radius: 50%;
   }
 
